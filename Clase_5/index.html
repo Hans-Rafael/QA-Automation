@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--ayuda a que sea responsive -->
+    <title>Calculadora Basica 🧮</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <main class="contenedor-calculadora">
+        <header>
+            <h1>Calculadora Basica en Python</h1>
+            <p>Ingresas los numeros, selecciona la operacion matematica que
+                desea ejecutar y haz click en calcular</p>
+        </header>
+        <form action="#" method="post" id="formulario-calculadora">
+            <div class="campo-grupo">
+                <label for="num1"> Primer numero: </label>
+                <input type="number" id="num1" name="num1" placeholder="Ej: 5" required />
+            </div>
+            <div class="campo-grupo">
+                <label for="num2"> Segundo numero: </label>
+                <input type="number" id="num2" name="num2" placeholder="Ej: 2" required />
+            </div>
+            <fieldset class="operaciones-grupo">
+                <legend>Operación</legend>
+                <div class="radio-opcion">
+                    <input type="radio" id="op-sumar" name="operacion" value="sumar" checked />
+                    <label for="op-sumar">Sumar</label>
+                </div>
+                <div class="radio-opcion">
+                    <input type="radio" id="op-restar" name="operacion" value="restar" />
+                    <label for="op-restar">Restar</label>
+                </div>
+                <div class="radio-opcion">
+                    <input type="radio" id="op-multiplicar" name="operacion" value="multiplicar" />
+                    <label for="op-multiplicar">Multiplicar</label>
+                </div>
+                <div class="radio-opcion">
+                    <input type="radio" id="op-dividir" name="operacion" value="dividir" />
+                    <label for="op-dividir">Dividir</label>
+                </div>
+            </fieldset>
+            <button type="button" id="btn-calcular" class="btn-principal">
+                <!-- cambiar a type="submit" cuando pueda usar jvascript -->
+                Calcular
+            </button>
+        </form>
+    </main>
+</body>
+
+</html
