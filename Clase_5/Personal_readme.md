@@ -5,10 +5,10 @@ Para comprobar que los selectores definidos en nuestra hoja de ruta (`selectors.
 ```javascript
 document.querySelector('#num1').style.border = '2px solid red';
 ```
+```
 // El [0] apunta al primer radio button: "Sumar"
 document.querySelectorAll('input[name="operacion"]')[0].parentElement.style.border = '2px solid red';
-
-+```
+```
 ## Interactuar (Para simular un usuario)
 En las pruebas automatizadas, lo primero que hace el robot es rellenar los datos. Vamos a hacerlo nosotros desde la consola sin tocar el teclado físico.
 
