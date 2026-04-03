@@ -1,0 +1,51 @@
+/* Recordatorio jerarquia: Clase . < Id # */
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f0f0;
+}
+
+.contenedor-calculadora {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 24px;
+  width: 320px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+h1 { font-size: 1.1rem; margin-bottom: 6px;color: #025aa5; }
+
+p  { font-size: 0.85rem; color: #555; margin-bottom: 16px; }
+
+.btn-principal { width: 100%; padding: 8px; background: #0275d8; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+.btn-principal:hover { background: #025aa5; }
+
+.resultado-contenedor { margin-top: 16px; min-height: 48px; border: 1px solid #ccc; border-radius: 4px; padding: 8px; text-align: center; }
+
+.campo-grupo { margin-bottom: 12px; }
+.radio-opcion { margin-top: 6px; }
+legend { padding: 0 4px; font-size: 0.9rem; }
+input[type="number"] { width: 100%; padding: 6px; border: 1px solid #ccc; border-radius: 5px; }
+.operaciones-grupo { border: 1px solid #ccc; border-radius: 4px; padding: 10px; margin-bottom: 12px; }
+
+#mensaje-resultado:not(:empty) {
+  background: #d4edda; color: #155724;
+  border: 1px solid #c3e6cb; padding: 8px; border-radius: 4px;
+}
+#mensaje-error:not(:empty) {
+  background: #f8d7da; color: #721c24;
+  border: 1px solid #f5c6cb; padding: 8px; border-radius: 4px;
+}
+
+
+
+
